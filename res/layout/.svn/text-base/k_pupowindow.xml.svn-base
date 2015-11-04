@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/k_relativeLayout" >
+
+    <TextView
+        android:id="@+id/sing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="演唱"
+        android:textColor="#333"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sing_oratorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sing"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/sing_oratorio"
+        android:textColor="@color/blueviolet"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sing_accompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sing_oratorio"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/sing_accompany"
+        android:textColor="@color/blueviolet"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/k_cancel"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_below="@id/sing_accompany"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:textColor="@color/red"
+        android:text="@string/k_cancel"/>
+    
+
+</RelativeLayout>
